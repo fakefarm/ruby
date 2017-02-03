@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>DEVELOPMENT - RubyGems Update Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+</script>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/darkfish.js"></script>
+
+<link href="../css/fonts.css" rel="stylesheet">
+<link href="../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../table_of_contents.html#pages">Pages</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+<div class="nav-section">
+  <h3>Table of Contents</h3>
+
+  <ul class="link-list" role="directory">
+    <li><a href="#label-Where+should+I+start-3F">Where should I start?</a>
+    <li><a href="#label-Your+first+commits">Your first commits</a>
+    <li><a href="#label-How+you+can+help">How you can help</a>
+    <li><a href="#label-Development+setup">Development setup</a>
+    <li><a href="#label-Submitting+Pull+Requests">Submitting Pull Requests</a>
+    <li><a href="#label-Bug+triage">Bug triage</a>
+    <li><a href="#label-Adding+New+Features">Adding New Features</a>
+    <li><a href="#label-Beta+testing">Beta testing</a>
+    <li><a href="#label-Translations">Translations</a>
+    <li><a href="#label-Documentation">Documentation</a>
+    <li><a href="#label-Community">Community</a>
+  </ul>
+</div>
+
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../CODE_OF_CONDUCT_md.html">CODE_OF_CONDUCT</a>
+  
+    <li><a href="../CONTRIBUTING_rdoc.html">CONTRIBUTING</a>
+  
+    <li><a href="../CVE-2013-4287_txt.html">CVE-2013-4287</a>
+  
+    <li><a href="../CVE-2013-4363_txt.html">CVE-2013-4363</a>
+  
+    <li><a href="../CVE-2015-3900_txt.html">CVE-2015-3900</a>
+  
+    <li><a href="../History_txt.html">History</a>
+  
+    <li><a href="../LICENSE_txt.html">LICENSE</a>
+  
+    <li><a href="../MAINTAINERS_txt.html">MAINTAINERS</a>
+  
+    <li><a href="../MIT_txt.html">MIT</a>
+  
+    <li><a href="../Manifest_txt.html">Manifest</a>
+  
+    <li><a href="../POLICIES_rdoc.html">POLICIES</a>
+  
+    <li><a href="../README_rdoc.html">README</a>
+  
+    <li><a href="../UPGRADING_rdoc.html">UPGRADING</a>
+  
+    <li><a href="../bundler/CHANGELOG_md.html">CHANGELOG</a>
+  
+    <li><a href="../bundler/CODE_OF_CONDUCT_md.html">CODE_OF_CONDUCT</a>
+  
+    <li><a href="../bundler/CONTRIBUTING_md.html">CONTRIBUTING</a>
+  
+    <li><a href="../bundler/DEVELOPMENT_md.html">DEVELOPMENT</a>
+  
+    <li><a href="../bundler/ISSUES_md.html">ISSUES</a>
+  
+    <li><a href="../bundler/LICENSE_md.html">LICENSE</a>
+  
+    <li><a href="../bundler/README_md.html">README</a>
+  
+    <li><a href="../bundler/man/index_txt.html">index</a>
+  
+    <li><a href="../hide_lib_for_update/note_txt.html">note</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page bundler/DEVELOPMENT.md">
+
+<p>Great to have you here! Here are a few ways you can help out with <a
+href="http://github.com/bundler/bundler">Bundler</a>.</p>
+
+<h1 id="label-Where+should+I+start-3F">Where should I start?<span><a href="#label-Where+should+I+start-3F">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>You can start learning about Bundler by reading <a
+href="http://bundler.io">the documentation</a>. If you want, you can also
+read a (lengthy) explanation of <a
+href="http://bundler.io/rationale.html">why Bundler exists and what it
+does</a>. You can also check out discussions about Bundler on the <a
+href="https://groups.google.com/group/ruby-bundler">Bundler mailing
+list</a> and in the <a
+href="http://webchat.freenode.net/?channels=%23bundler">Bundler IRC
+channel</a>, which is bundler on Freenode. Please note that this project is
+released with a contributor <a href="http://bundler.io/conduct.html">code
+of conduct</a>. By participating in this project you agree to abide by its
+terms.</p>
+
+<h2 id="label-Your+first+commits">Your first commits<span><a href="#label-Your+first+commits">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>If you’re interested in contributing to Bundler, that’s awesome! We’d love
+your help.</p>
+
+<p>If you have any questions after reading this page, please feel free to
+contact either <a href="https://github.com/indirect">@indirect</a>, <a
+href="https://github.com/segiddins">@segiddins</a>, or <a
+href="https://github.com/RochesterinNYC">@RochesterinNYC</a>. They are all
+happy to provide help working through your first bug fix or thinking
+through the problem you’re trying to resolve.</p>
+
+<h2 id="label-How+you+can+help">How you can help<span><a href="#label-How+you+can+help">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>We track <a
+href="https://github.com/bundler/bundler/issues?labels=small">small bugs
+and features</a> so that anyone who wants to help can start with something
+that&#39;s not too overwhelming. We also keep a <a
+href="https://github.com/bundler/bundler/blob/master/CONTRIBUTING.md#contributing">list
+of things anyone can help with, any time</a>. If nothing on those lists
+looks good, talk to us, and we&#39;ll figure out what you can help with. We
+can absolutely use your help, no matter what level of programming skill you
+have at the moment.</p>
+
+<h1 id="label-Development+setup">Development setup<span><a href="#label-Development+setup">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>Bundler doesn&#39;t use a Gemfile to list development dependencies, because
+when we tried it we couldn&#39;t tell if we were awake or it was just
+another level of dreams. To work on Bundler, you&#39;ll probably want to do
+a couple of things.</p>
+<ol><li>
+<p>Install <code>groff-base</code> and <code>graphviz</code> packages using
+your package manager, e.g for ubuntu</p>
+
+<pre>$ sudo apt-get install graphviz groff-base -y</pre>
+
+<p>and for OS X (with brew installed)</p>
+
+<pre>$ brew install graphviz homebrew/dupes/groff</pre>
+</li><li>
+<p>Install Bundler&#39;s development dependencies</p>
+
+<pre>$ bin/rake spec:deps</pre>
+</li><li>
+<p>Run the test suite, to make sure things are working</p>
+
+<pre>$ bin/rake spec</pre>
+</li><li>
+<p>Set up a shell alias to run Bundler from your clone, e.g. a Bash alias:</p>
+
+<pre>$ alias dbundle=&#39;ruby -I /path/to/bundler/lib /path/to/bundler/exe/bundle&#39;</pre>
+
+<p>With that set up, you can test changes you&#39;ve made to Bundler by
+running <code>dbundle</code>, without interfering with the regular
+<code>bundle</code> command.</p>
+</li></ol>
+
+<h1 id="label-Submitting+Pull+Requests">Submitting Pull Requests<span><a href="#label-Submitting+Pull+Requests">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>Before you submit a pull request, please remember to do the following:</p>
+<ul><li>
+<p>Make sure the code formatting and styling adheres to the guidelines. We use
+Rubocop for this. Lack of formatting adherence will result in automatic
+Travis build failures.</p>
+
+<pre>$ bin/rubocop -a</pre>
+</li><li>
+<p>Please run the test suite:</p>
+
+<pre>$ bin/rspec</pre>
+</li><li>
+<p>If you are unable to run the entire test suite, please run the unit test
+suite and at least the integration specs related to the command or domain
+of Bundler that your code changes relate to.</p>
+</li><li>
+<p>Ex. For a pull request that changes something with <code>bundle
+update</code>, you might run:</p>
+
+<pre>$ bin/rspec spec/bundler
+$ bin/rspec spec/commands/update_spec.rb</pre>
+</li><li>
+<p>Please ensure that the commit messages included in the pull request
+<strong>do not</strong> have the following:</p>
+</li><li>
+<p><code>@tag</code> Github user or team references (ex.
+<code>@indirect</code> or <code>@bundler/core</code>)</p>
+</li><li>
+<p><code>#id</code> references to issues or pull requests (ex.
+<code>#43</code> or <code>bundler/bundler-site#12</code>)</p>
+</li></ul>
+
+<p>If you want to use these mechanisms, please instead include them in the
+pull request description. This prevents multiple notifications or
+references being created on commit rebases or pull request/branch force
+pushes.</p>
+<ul><li>
+<p>Additionally, do not use <code>[ci skip]</code> or <code>[skip ci]</code>
+mechanisms in your pull request titles/descriptions or commit messages.
+Every potential commit and pull request should run through Bundler&#39;s CI
+system. This applies to all changes/commits (ex. even a change to just
+documentation or the removal of a comment).</p>
+</li></ul>
+
+<h1 id="label-Bug+triage">Bug triage<span><a href="#label-Bug+triage">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>Triage is the work of processing tickets that have been opened into
+actionable issues, feature requests, or bug reports. That includes
+verifying bugs, categorizing the ticket, and ensuring there&#39;s enough
+information to reproduce the bug for anyone who wants to try to fix it.</p>
+
+<p>We&#39;ve created an <a
+href="https://github.com/bundler/bundler/blob/master/ISSUES.md">issues
+guide</a> to walk Bundler users through the process of troubleshooting
+issues and reporting bugs.</p>
+
+<p>If you&#39;d like to help, awesome! You can <a
+href="https://github.com/bundler/bundler/issues/new">report a new bug</a>
+or browse our <a href="https://github.com/bundler/bundler/issues">existing
+open tickets</a>.</p>
+
+<p>Not every ticket will point to a bug in Bundler&#39;s code, but open
+tickets usually mean that there is something we could improve to help that
+user. Sometimes that means writing additional documentation, sometimes that
+means making error messages clearer, and sometimes that means explaining to
+a user that they need to install git to use git gems.</p>
+
+<p>When you&#39;re looking at a ticket, here are the main questions to ask:</p>
+<ul><li>
+<p>Can I reproduce this bug myself?</p>
+</li><li>
+<p>Are the steps to reproduce clearly stated in the ticket?</p>
+</li><li>
+<p>Which versions of Bundler (1.1.x, 1.2.x, git, etc.) manifest this bug?</p>
+</li><li>
+<p>Which operating systems (OS X, Windows, Ubuntu, CentOS, etc.) manifest this
+bug?</p>
+</li><li>
+<p>Which rubies (MRI, JRuby, Rubinius, etc.) and which versions (1.8.7, 1.9.3,
+etc.) have this bug?</p>
+</li></ul>
+
+<p>If you can&#39;t reproduce an issue, chances are good that the bug has been
+fixed (hurrah!). That&#39;s a good time to post to the ticket explaining
+what you did and how it worked.</p>
+
+<p>If you can reproduce an issue, you&#39;re well on your way to fixing it. :)
+Fixing issues is similar to adding new features:</p>
+<ol><li>
+<p>Discuss the fix on the existing issue. Coordinating with everyone else
+saves duplicate work and serves as a great way to get suggestions and ideas
+if you need any.</p>
+</li><li>
+<p>Base your commits on the correct branch. Bugfixes for 1.x versions of
+Bundler should be based on the matching 1-x-stable branch.</p>
+</li><li>
+<p>Commit the code and at least one test covering your changes to a named
+branch in your fork.</p>
+</li><li>
+<p>Put a line in the <a
+href="https://github.com/bundler/bundler/blob/master/CHANGELOG.md">CHANGELOG</a>
+summarizing your changes under the next release under the “Bugfixes”
+heading.</p>
+</li><li>
+<p>Send us a <a
+href="https://help.github.com/articles/using-pull-requests">pull
+request</a> from your bugfix branch.</p>
+</li></ol>
+
+<p>Finally, the ticket may be a duplicate of another older ticket. If you
+notice a ticket is a duplicate, simply comment on the ticket noting the
+original ticket’s number. For example, you could say “This is a duplicate
+of issue #42, and can be closed”.</p>
+
+<h1 id="label-Adding+New+Features">Adding New Features<span><a href="#label-Adding+New+Features">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>If you would like to add a new feature to Bundler, please follow these
+steps:</p>
+<ol><li>
+<p><a href="https://github.com/bundler/bundler/issues/new">Create an issue</a>
+with the <a
+href="https://github.com/bundler/bundler/labels/feature-request">feature-request
+label</a> to discuss your feature.</p>
+</li><li>
+<p>Base your commits on the master branch, since we follow <a
+href="http://semver.org">SemVer</a> and don&#39;t add new features to old
+releases.</p>
+</li><li>
+<p>Commit the code and at least one test covering your changes to a feature
+branch in your fork.</p>
+</li><li>
+<p>Send us a <a
+href="https://help.github.com/articles/using-pull-requests">pull
+request</a> from your feature branch.</p>
+</li></ol>
+
+<p>If you don&#39;t hear back immediately, don’t get discouraged! We all have
+day jobs, but we respond to most tickets within a day or two.</p>
+
+<h1 id="label-Beta+testing">Beta testing<span><a href="#label-Beta+testing">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>Early releases require heavy testing, especially across various system
+setups. We :heart: testers, and are big fans of anyone who can run
+<code>gem install bundler --pre</code> and try out upcoming releases in
+their development and staging environments.</p>
+
+<p>There may not always be prereleases or beta versions of Bundler. The
+Bundler team will tweet from the <a
+href="http://twitter.com/bundlerio">@bundlerio account</a> when a
+prerelease or beta version becomes available. You are also always welcome
+to try checking out master and building a gem yourself if you want to try
+out the latest changes.</p>
+
+<h1 id="label-Translations">Translations<span><a href="#label-Translations">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>We don&#39;t currently have any translations, but please reach out to us if
+you would like to help get this going.</p>
+
+<h1 id="label-Documentation">Documentation<span><a href="#label-Documentation">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>Code needs explanation, and sometimes those who know the code well have
+trouble explaining it to someone just getting into it. Because of that, we
+welcome documentation suggestions and patches from everyone, especially if
+they are brand new to using Bundler.</p>
+
+<p>Bundler has two main sources of documentation: the built-in help (including
+usage information and man pages) and the <a
+href="http://bundler.io">Bundler documentation site</a>.</p>
+
+<p>If you’d like to submit a patch to the man pages, follow the steps for
+submitting a pull request above. All of the man pages are located in the
+<code>man</code> directory. Just use the “Documentation” heading when you
+describe what you did in the changelog.</p>
+
+<p>If you have a suggestion or proposed change for <a
+href="http://bundler.io">bundler.io</a>, please open an issue or send a
+pull request to the <a
+href="https://github.com/bundler/bundler-site">bundler-site</a> repository.</p>
+
+<h1 id="label-Community">Community<span><a href="#label-Community">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>Community is an important part of all we do. If you’d like to be part of
+the Bundler community, you can jump right in and start helping make Bundler
+better for everyone who uses it.</p>
+
+<p>It would be tremendously helpful to have more people answering questions
+about Bundler (and often simply about <a
+href="https://github.com/rubygems/rubygems">Rubygems</a> or Ruby itself) in
+our <a href="https://github.com/bundler/bundler/issues">issue tracker</a>
+or on <a href="http://stackoverflow.com/questions/tagged/bundler">Stack
+Overflow</a>.</p>
+
+<p>Additional documentation and explanation is always helpful, too. If you
+have any suggestions for the Bundler website <a
+href="http://bundler.io">bundler.io</a>, we would absolutely love it if you
+opened an issue or pull request on the <a
+href="https://github.com/bundler/bundler-site">bundler-site</a> repository.</p>
+
+<p>Finally, sharing your experiences and discoveries by writing them up is a
+valuable way to help others who have similar problems or experiences in the
+future. You can write a blog post, create an example and commit it to
+Github, take screenshots, or make videos.</p>
+
+<p>Publishing examples of how Bundler is used helps everyone, and we’ve
+discovered that people already use it in ways that we never imagined when
+we were writing it. If you’re still not sure what to write about, there are
+also several projects doing interesting things based on Bundler. They could
+probably use publicity too.</p>
+
+<p>Finally, all contributors to the Bundler project must agree to the
+contributor <a href="http://bundler.io/conduct.html">code of conduct</a>.
+By participating in this project you agree to abide by its terms.</p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
